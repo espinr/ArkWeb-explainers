@@ -1,5 +1,8 @@
 # Scrollbar-Padding property
 
+## Authors
+- Liu Yao Ming [yaomingliu@gmail.com] (ArkWeb)
+ 
 ## Introduction
 
 The proposal introduces `scrollbar-padding` as a new CSS property, enabling web developers to define a padding area for the scrollbar to restrict the scrollbar to a specific area of the viewport. 
