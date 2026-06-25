@@ -19,9 +19,11 @@ env(safe-area-inset-top);
 env(safe-area-inset-bottom);
 ```
 
-However, the scrollbar cannot use the same mechanism (shown in the following figure), resulting in an inconsistent user experience.
+As shown in the figure below, the blue rectangle represents the content box.
 
-![Screenshots showing how the scrollbar overlaps the status bar in a smartphone viewport](../ScrollbarAvoidanceArea/images/overlapping-scrollbar.png)
+However, the scrollbar cannot use the same mechanism, resulting in an inconsistent user experience: the part labeled 3 in the picture.
+
+![Screenshots showing how the scrollbar overlaps the status bar in a smartphone viewport](./images/current.png)
 
 
  
@@ -65,6 +67,8 @@ Syntax:
 	</body>
 </html>
 ```
+
+![Screenshots showing how the scrollbar overlaps the status bar in a smartphone viewport](./images/after.png)
 
 ## Other activities to consider 
 
